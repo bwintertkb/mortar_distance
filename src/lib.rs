@@ -9,7 +9,8 @@ use mouse_rs::Mouse;
 const NUM_RECORD: u8 = 4;
 
 /// Used to record the positions of the mouse cursor. The **ENTER** key is used to record an entry. 4 entries are required to get the distance. The first two are two callibrate the distance for
-/// `c_dis`, e.g. if `c_dis` is 100 then that translates to 100 meters. The last two entries are to measure the distance between your position and the target position.
+/// `c_dis`, e.g. if `c_dis` is 100 then that translates to 100 meters. The last two entries are to measure the distance between your position and the target position. `std_output` set to true
+/// will output the recorded position number.
 pub fn record<T: std::convert::Into<f64>>(
     c_dis: T,
     std_output: bool,

@@ -4,6 +4,8 @@ A little library that can be used to callibrate the mortar firing distance in Pl
 
 ### Video example
 
+https://youtu.be/EApR86h8s4M
+
 ### Dependency
 
 `mortar_distance = 0.1.0`
