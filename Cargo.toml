@@ -1,0 +1,15 @@
+[package]
+author = ["bwintertkb"]
+description = "Callibrate your mortar distance in PlayerUnknown's Battlegrounds (PUBG)."
+documentation = "https://docs.rs/mortar_distance/0.1.0/mortar_distance/"
+edition = "2021"
+license = "MIT"
+name = "mortar_distance"
+repository = "https://github.com/bwintertkb/mortar_distance.git"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.25.0"
+mouse-rs = "0.4.2"
